@@ -1,3 +1,3 @@
-<center>![Headder](logo.png)</center>
+![Headder](logo.png)
 
 # Flask-tutorials
