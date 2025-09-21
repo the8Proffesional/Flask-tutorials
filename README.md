@@ -36,6 +36,11 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/<name:string>')
+def func(name):
+    str=f'hello {name}'
+    return f'<h1>{str}</h1>'
+    
 if __name__ == '__main__':
     app.run(debug=True)
 
